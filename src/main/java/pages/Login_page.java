@@ -28,6 +28,10 @@ public class Login_page {
 
 //	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
+	@Test
+	public void case4() {
+		
+	}
 
 	@Before
 	public void before() {
@@ -51,5 +55,7 @@ public class Login_page {
 		String expectedUrl= driver.getCurrentUrl();
 		Assert.assertEquals(expectedUrl, actualUrl);
 	}
+	
+	
 
 }
