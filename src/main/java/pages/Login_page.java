@@ -28,10 +28,8 @@ public class Login_page {
 
 //	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
-	@Test
-	public void case4() {
-		
-	}
+	
+	
 
 	@Before
 	public void before() {
